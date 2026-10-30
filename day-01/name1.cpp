@@ -13,11 +13,11 @@ int main(){
     getline(cin >> ws, Gender);
     cout << "Hello, " << name << endl;
 
-    if (Gender == "M"){
+    if (Gender == "M" || Gender == "m"){
         cout << "You are a Clever Man" << endl;
 
     }
-    if (Gender == "F"){
+    if (Gender == "F" || Gender == "f"){
         cout << "You are a Lovely Lady" << endl;
     }
     return 0;
